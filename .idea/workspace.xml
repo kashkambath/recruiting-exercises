@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28e7d84b-6439-4dc5-9463-556a3a7b9bcd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-allocator/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-allocator/README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/recruiting_exercises$test_inventory_allocator.coverage" NAME="test-inventory-allocator Coverage Results" MODIFIED="1570560831119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test-inventory-allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_insufficient_inventory_for_multiple_items.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items Coverage Results" MODIFIED="1570647841201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_empty_inventory_dist_should_err.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_empty_inventory_dist_should_err Coverage Results" MODIFIED="1570605742029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_insufficient_inventory_for_an_item.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item Coverage Results" MODIFIED="1570606301210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_leave_items_in_warehouses.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_leave_items_in_warehouses Coverage Results" MODIFIED="1570606305547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_in_test_inventory_allocator_py__1_.coverage" NAME="Unittests in test_inventory_allocator.py (1) Coverage Results" MODIFIED="1570660097543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_allocator/test" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_split_items_across_warehouses.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_split_items_across_warehouses Coverage Results" MODIFIED="1570603959483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum.coverage" NAME="Unittests for test_inventory_allocator.TestSum Coverage Results" MODIFIED="1570661291581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inventory_allocator/test" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_in_test_inventory_allocator_py.coverage" NAME="Unittests in test_inventory_allocator.py Coverage Results" MODIFIED="1570605697420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_exact_inventory_match.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_exact_inventory_match Coverage Results" MODIFIED="1570605641614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+    <SUITE FILE_PATH="coverage/recruiting_exercises$Unittests_for_test_inventory_allocator_TestSum_test_empty_order_should_err.coverage" NAME="Unittests for test_inventory_allocator.TestSum.test_empty_order_should_err Coverage Results" MODIFIED="1570605388721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_inventory_allocator" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-510961252">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="md" value="4" />
+          <entry key="py" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="366" />
+          <entry key="md" value="509" />
+          <entry key="py" value="2251" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="509" />
+          <entry key="Python" value="2617" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory_allocator/src/inventory_allocator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory_allocator/test/test_inventory_allocator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory_allocator/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory_allocator/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory_allocator/src/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>expectedOutput</find>
+      <find>itemsToShipFromThisWarehouse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>expected_output</replace>
+      <replace>&quot;</replace>
+      <replace>items_to_ship</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/inventory-allocator/TestInventoryAlloctator.py" />
+        <option value="$PROJECT_DIR$/inventory-allocator/test-inventory-allocator.py" />
+        <option value="$PROJECT_DIR$/inventory-allocator/__init__.py" />
+        <option value="$PROJECT_DIR$/test-inventory-allocator/__init__.py" />
+        <option value="$PROJECT_DIR$/test-inventory-allocator/test-inventory-allocator.py" />
+        <option value="$PROJECT_DIR$/test_inventory_allocator/test_inventory_allocator.py" />
+        <option value="$PROJECT_DIR$/inventory_allocator/inventory_allocator.py" />
+        <option value="$PROJECT_DIR$/inventory_allocator/__init__.py" />
+        <option value="$PROJECT_DIR$/inventory_allocator/test/test_inventory_allocator.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/trackingcode-data-processor/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="208" />
+    <option name="y" value="33" />
+    <option name="width" value="1432" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Pylint</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Pylint</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="recruiting-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruiting-exercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruiting-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruiting-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory_allocator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruiting-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruiting-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory_allocator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruiting-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recruiting-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory_allocator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recruiting-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test-inventory-allocator" />
+      <recent name="$PROJECT_DIR$/inventory-allocator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_inventory_allocator.TestSum">
+    <configuration name="Unittests for test_inventory_allocator.TestSum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="recruiting-exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inventory_allocator/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_inventory_allocator.TestSum&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="recruiting-exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_inventory_allocator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="recruiting-exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_inventory_allocator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_inventory_allocator.TestSum.test_leave_items_in_warehouses" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="recruiting-exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_inventory_allocator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_inventory_allocator.TestSum.test_leave_items_in_warehouses&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_inventory_allocator.py (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="recruiting-exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inventory_allocator/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/inventory_allocator/test/test_inventory_allocator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item" />
+      <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum.test_leave_items_in_warehouses" />
+      <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items" />
+      <item itemvalue="Python tests.Unittests in test_inventory_allocator.py (1)" />
+      <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum" />
+        <item itemvalue="Python tests.Unittests in test_inventory_allocator.py (1)" />
+        <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items" />
+        <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum.test_leave_items_in_warehouses" />
+        <item itemvalue="Python tests.Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28e7d84b-6439-4dc5-9463-556a3a7b9bcd" name="Default Changelist" comment="" />
+      <created>1570559795538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570559795538</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum_test_leave_items_in_warehouses - 2019.10.09 at 00h 23m 15s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum.test_leave_items_in_warehouses" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum_test_insufficient_inventory_for_an_item - 2019.10.09 at 00h 24m 17s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum_test_insufficient_inventory_for_an_item - 2019.10.09 at 00h 31m 41s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_an_item" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum_test_leave_items_in_warehouses - 2019.10.09 at 00h 31m 45s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum.test_leave_items_in_warehouses" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum_test_insufficient_inventory_for_multiple_items - 2019.10.09 at 00h 33m 46s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum_test_insufficient_inventory_for_multiple_items - 2019.10.09 at 12h 04m 01s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum.test_insufficient_inventory_for_multiple_items" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_inventory_allocator_py_(1) - 2019.10.09 at 15h 26m 37s.xml">
+      <configuration name="Unittests in test_inventory_allocator.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_inventory_allocator_py_(1) - 2019.10.09 at 15h 28m 17s.xml">
+      <configuration name="Unittests in test_inventory_allocator.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum - 2019.10.09 at 15h 48m 03s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_inventory_allocator_TestSum - 2019.10.09 at 15h 48m 11s.xml">
+      <configuration name="Unittests for test_inventory_allocator.TestSum" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="208" y="33" width="1432" height="930" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26043165" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.424821" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3293556" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293556" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3293556" />
+      <window_info anchor="bottom" id="Pylint" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/inventory-allocator/InventoryAllocator.py" />
+    <entry file="file://$PROJECT_DIR$/inventory-allocator/TestInventoryAlloctator.py" />
+    <entry file="file://$PROJECT_DIR$/inventory-allocator/inventory-allocator.py" />
+    <entry file="file://$PROJECT_DIR$/inventory-allocator/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test-inventory-allocator/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test-inventory-allocator/test-inventory-allocator.py" />
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/inventory_allocator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_inventory_allocator/test_inventory_allocator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/src/inventory_allocator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/test/test_inventory_allocator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_allocator/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
